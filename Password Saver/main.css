@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: skyblue;
+    overflow-X: hidden;
+}
+.login-container{
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-top: 2px grey dashed;
+    border-bottom: 2px grey dashed;
+}
+#login {
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 300px;
+    position: relative;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 6px;
+    font-size: 18px;
+    margin: 8px;
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+#login input[type=submit] {
+    border: 1px solid black;
+    position: absolute;
+    right: 0;
+}
+
+ label {
+    font-family: fantasy;
+    margin: 10px;
+}
+
+.round-signup {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    bottom: -95px;
+    right: -95px;
+    transition: transform 0.24s ease-out;
+}
+
+.round-signup p {
+    position: relative;
+    left: 25px;
+    top: 27px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.round-signup:hover {
+    transform: scale(15);
+    color: white;
+}
